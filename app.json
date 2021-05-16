@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "cyberbuddy",
+    "slug": "cyberbuddy-anti_cyberbullying_app",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/logo-cyberbuddy-google.png",
+    "splash": {
+      "image": "./assets/splash-cyberbuddy.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.app.cyberbuddy"
+    }
+  }
+}
